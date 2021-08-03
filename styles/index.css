@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #efecec;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+
+/* CARD */
+.card {
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    width: 100%;
+}
+
+/* MENU */
+.navbar__section {
+    background-color: #363434;
+    width: 100%;
+    color: white;
+    height: 64px;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+    box-sizing: border-box;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar__section-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    justify-content: space-between;
+}
+
+.navbar__logo {
+    width: 30%;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar__section .navbar__logo-text {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar__menu {
+    font-size: 16px;
+}
+
+.navbar__menu-list {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar__menu-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.navbar__menu-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* SECCIONES */
+.section {
+    max-width: 1024px;
+    margin: 0 auto 100px;
+}
+
+.sections::-webkit-scrollbar {
+    display: none;
+}
+
+.sections-container {
+    max-width: 1024px;
+}
+
+.section__subtitle {
+    font-size: 32px;
+    color: #343353;
+    margin-bottom: 40px;
+}
+
+.section-banner {
+    background-image: url("../assets/fondo.svg");
+    background-color: #5c5757;
+    text-align: center;
+    height: 100vh;
+    min-height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.section-banner__avatar {
+    width: 108px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.section-banner__name {
+    color: white;
+}
+
+.section-banner__profesion {
+    color: white;
+}
+
+.section-banner__scroll {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 32px;
+    align-items: center;
+    text-decoration: none;
+    transition: bottom 0.2s ease;
+}
+
+.section-banner__scroll:hover {
+    bottom: 40px;
+}
+
+.section-banner__scroll span {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-banner__scroll-icon {
+    width: 16px;
+    margin: 0 auto;
+}
+
+.section-banner__item-icon {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.section-banner__rrss-list {
+    list-style: none;
+    margin: 0 auto 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-about-me, .section-services, .section-experiences, .section-my-work, .contact {
+    padding-top: 60px;
+}
+
+.section-about-me__avatar {
+    width: 150px;
+}
+
+.section-about-me__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-about-me__card {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-about-me__card-info {
+    width: 50%;
+}
+
+.section-about-me__card-switches {
+    width: 50%;
+}
+
+.section-about-me__card-info .button-primary{
+    margin: 0;
+}
+
+.section-servicess__container, .section-experiences__container, .section-my-work__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-services__card, .section-experiences__card, .section-my-work__card {
+    margin-right: 16px;
+}
+
+.section-services__card:last-child, .section-experiences__card:last-child, .section-my-work__card:last-child {
+    margin-right: 0;
+}
+
+.section-services__card {
+    text-align: center;
+}
+
+.section-services__card--html {
+    box-shadow: 0px 5px 20px 0px #6c6ce5;
+    background-color: #6c6ce5;
+    color: white;
+}
+
+.section-services__card--css {
+    box-shadow: 0px 5px 20px 0px #ffd15c;
+    background-color: #ffd15c;
+}
+
+.section-services__card--javascript {
+    box-shadow: 0px 5px 20px 0px #ff4c60;
+    background-color: #ff4c60;
+    color: white;
+}
+
+.section-services__card--c {
+    box-shadow: 0px 5px 20px 0px violet;
+    background-color: violet;
+    color: white;
+}
+
+.section-services__picture {
+    height: 80px;
+}
+
+.section-my-work__container {
+    margin-bottom: 16px;
+}
+
+.section-about-me__avatar-container {
+    margin-top: 25px;
+}
+
+.section-about-me__card-skills {
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.section-about-me__skill-bar {
+    margin: 10px 0 15px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    height: 8px;
+}
+
+.section-about-me__skill-bar--html {
+    background-color: #6c6ce5;
+    width: 95%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--css {
+    background-color: #ffd15c;
+    width: 85%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--javascript {
+    background-color: #ff4c60;
+    width: 30%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--c {
+    background-color: violet;
+    width: 55%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__card-info {
+    margin: 0 0 16px 0;
+    max-width: 350px;
+    line-height: 1.7;
+}
+
+.section-experiences__icon {
+    height: 20px;
+    width: 22px;
+    background: white;
+}
+
+.section-experiences__card-content {
+    border-left: 1px solid #ff4c60;
+    flex-direction: column;
+    padding: 0 0 64px 32px;
+    position: relative;
+    display: flex;
+}
+
+.section-experiences__card-content:last-child {
+    padding-bottom: 20px;
+}
+
+.section-experiences__card-info {
+    margin-bottom: 10px;
+}
+
+.section-experiences__time {
+    margin-left: 10px;
+    color: #8b88b1;
+}
+
+.section-experiences__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.section-experiences__description {
+    margin: 0;
+}
+
+.section-my-work__picture {
+    width: 100%;
+    max-height: 140px;
+}
+
+.section-my-work__card  {
+    position: relative;
+}
+
+.section-my-work__mask {
+    background: #62929a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.section-my-work__card:hover .section-my-work__mask {
+    opacity: 0.9;
+}
+
+.section-my-work__title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* BOTONES */
+.button-primary {
+    background-color: #62929a;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 21px;
+    width: max-content;
+    min-width: 160px;
+    color: white;
+    display: flex;
+    height: 42px;
+    border: none;
+    outline: none;
+    margin: 0 auto;;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #61A3AE;
+    color: honeydew;
+}
+
+/* FOOTER */
+footer {
+    background-color: #efecec;
+    max-width: 1024px;
+    margin: 0 auto 200px;
+}
+
+.footer-contact__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact__info {
+    width: 30%;
+}
+
+.footer-contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact__form-container {
+    width: 70%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.footer-contact__form-container .button-primary {
+    margin: 0;
+}
+
+.footer-contact__form-atributes-group {
+    display: flex;
+}
+
+.form-input {
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    border-radius: 24px;
+    margin-bottom: 30px;
+    padding: 24px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+textarea.form-input {
+    height: 110px;
+}
+
+.form-input + .form-input {
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 1024px){
+     .navbar__menu-icon{
+         display: none;
+    }
+    .section-about-me, .section-services, .section-experiences, .section-my-work, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar__logo{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__logo {
+        display: none;
+    }
+    .navbar__menu {
+        font-size: 14px;
+    }
+    .navbar__menu-list-item:last-of-type {
+        display: none;
+    }
+    .section-about-me__container, .section-servicess__container, .section-experiences__container, .section-my-work__container, .footer-contact__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-about-me__avatar-container {
+        margin: 25px auto 15px;
+    }
+    .section-about-me__card {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-about-me__card-info .button-primary {
+        margin: 0 auto;
+    }
+    .section-about-me__card-info {
+        margin: 0 0 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .section-about-me__card-skills {
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    .section-services__card, .section-experiences__card, .section-my-work__card {
+        margin-bottom: 40px;
+    }
+    .footer-contact__info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-contact__form-container {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 690px) {
+    .section-banner__scroll {
+        display: none;
+    }
+}
