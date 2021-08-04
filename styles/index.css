@@ -274,6 +274,9 @@ body {
 }
 
 .section-about-me_progress--html .section-about-me_progress__bar--html {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     height: 100%;
     width: 95%;
     border-radius: 15px;
@@ -290,6 +293,9 @@ body {
   }
 
 .section-about-me_progress--css .section-about-me_progress__bar--css {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     height: 100%;
     width: 85%;
     border-radius: 15px;
@@ -306,6 +312,9 @@ body {
   }
 
 .section-about-me_progress--javascript .section-about-me_progress__bar--javascript {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     height: 100%;
     width: 30%;
     border-radius: 15px;
@@ -322,6 +331,9 @@ body {
   }
 
 .section-about-me_progress--c .section-about-me_progress__bar--c {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     height: 100%;
     width: 70%;
     border-radius: 15px;
