@@ -273,33 +273,69 @@ body {
     height: 8px;
 }
 
-.section-about-me__skill-bar--html {
-    background-color: #6c6ce5;
+.section-about-me_progress--html .section-about-me_progress__bar--html {
+    height: 100%;
     width: 95%;
-    height: 8px;
-    border-radius: 16px;
-}
+    border-radius: 15px;
+    background: repeating-linear-gradient(
+    #6c6ce5,
+    #6c6ce5 20px
+    );
+    animation: fill-bar-html 8s;
+  }
 
-.section-about-me__skill-bar--css {
-    background-color: #ffd15c;
+  @keyframes fill-bar-html {
+    from {width: 0%;}
+    to {width: 95%;}
+  }
+
+.section-about-me_progress--css .section-about-me_progress__bar--css {
+    height: 100%;
     width: 85%;
-    height: 8px;
-    border-radius: 16px;
-}
+    border-radius: 15px;
+    background: repeating-linear-gradient(
+    #ffd15c,
+    #ffd15c 20px
+    );
+    animation: fill-bar-css 8s;
+  }
 
-.section-about-me__skill-bar--javascript {
-    background-color: #ff4c60;
+  @keyframes fill-bar-css {
+    from {width: 0%;}
+    to {width: 85%;}
+  }
+
+.section-about-me_progress--javascript .section-about-me_progress__bar--javascript {
+    height: 100%;
     width: 30%;
-    height: 8px;
-    border-radius: 16px;
-}
+    border-radius: 15px;
+    background: repeating-linear-gradient(
+    #ff4c60,
+    #ff4c60 20px
+    );
+    animation: fill-bar-javascript 8s;
+  }
 
-.section-about-me__skill-bar--c {
-    background-color: violet;
-    width: 55%;
-    height: 8px;
-    border-radius: 16px;
-}
+  @keyframes fill-bar-javascript {
+    from {width: 0%;}
+    to {width: 30%;}
+  }
+
+.section-about-me_progress--c .section-about-me_progress__bar--c {
+    height: 100%;
+    width: 70%;
+    border-radius: 15px;
+    background: repeating-linear-gradient(
+      violet,
+      violet 20px
+    );
+    animation: fill-bar-c 8s;
+  }
+  
+  @keyframes fill-bar-c {
+    from {width: 0%;}
+    to {width: 70%;}
+  }
 
 .section-about-me__card-info {
     margin: 0 0 16px 0;
