@@ -230,7 +230,7 @@ body {
     color: white;
 }
 
-.section-services__card--css {
+.section-services__card--css {gi
     box-shadow: 0px 5px 20px 0px #ffd15c;
     background-color: #ffd15c;
 }
@@ -515,7 +515,7 @@ textarea.form-input {
     }
 
     .navbar__section-container{
-        justify-content: center;
+        justify-content: space-around;
     }
     
     .navbar__logo {
@@ -564,6 +564,10 @@ textarea.form-input {
     }
     .section-banner__scroll-icon{
         margin-bottom: 50px;
+    }
+
+    .navbar__menu-list-item{
+        padding-right: 10px;
     }
 }
 
