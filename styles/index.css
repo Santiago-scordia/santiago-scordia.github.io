@@ -570,6 +570,5 @@ textarea.form-input {
 @media screen and (max-height: 690px) {
     .section-banner__scroll {
         display: none;
-        
     }
 }
