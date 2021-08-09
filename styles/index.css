@@ -568,6 +568,7 @@ textarea.form-input {
 
     .navbar__menu-list-item{
         padding-right: 10px;
+        word-break: keep-all;
     }
 }
 
