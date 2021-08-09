@@ -503,10 +503,21 @@ textarea.form-input {
     }
     .navbar__logo{
         padding-left: 10px;
+        font-size: 23px;
+        padding-top: 6px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .navbar__section{
+        bottom: 0;
+        border-top: solid 1px rgba(255,255,255,0.1);
+    }
+
+    .navbar__section-container{
+        justify-content: center;
+    }
+    
     .navbar__logo {
         display: none;
     }
@@ -551,10 +562,14 @@ textarea.form-input {
         margin-left: 0;
         width: 100%;
     }
+    .section-banner__scroll-icon{
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-height: 690px) {
     .section-banner__scroll {
         display: none;
+        
     }
 }
