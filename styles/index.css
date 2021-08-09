@@ -512,7 +512,6 @@ textarea.form-input {
     .navbar__section{
         bottom: 0;
         border-top: solid 1px rgba(255,255,255,0.1);
-        word-break: keep-all;
     }
 
     .navbar__section-container{
@@ -523,7 +522,7 @@ textarea.form-input {
         display: none;
     }
     .navbar__menu {
-        font-size: 14px;
+        font-size: 12px;
     }
     .navbar__menu-list-item:last-of-type {
         display: none;
