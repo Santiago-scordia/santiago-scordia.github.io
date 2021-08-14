@@ -230,14 +230,21 @@ body {
     color: white;
 }
 
-.section-services__card--css {gi
+.section-services__card--css {
     box-shadow: 0px 5px 20px 0px #ffd15c;
     background-color: #ffd15c;
+    color: white;
 }
 
 .section-services__card--javascript {
     box-shadow: 0px 5px 20px 0px #ff4c60;
     background-color: #ff4c60;
+    color: white;
+}
+
+.section-services__card--git {
+    box-shadow: 0px 5px 20px 0px #20D5AF;
+    background-color: #20D5AF;
     color: white;
 }
 
@@ -508,7 +515,7 @@ textarea.form-input {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     .navbar__section{
         bottom: 0;
         border-top: solid 1px rgba(255,255,255,0.1);
@@ -571,7 +578,7 @@ textarea.form-input {
     }
 }
 
-@media screen and (max-height: 690px) {
+@media screen and (max-height: 760px) {
     .section-banner__scroll {
         display: none;
     }
