@@ -344,7 +344,7 @@ body {
   
   @keyframes fill-bar-c {
     from {width: 0%;}
-    to {width: 70%;}
+    to {width: 40%;}
   }
 
 .section-about-me__card-info {
