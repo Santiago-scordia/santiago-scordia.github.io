@@ -253,17 +253,18 @@
                     <p> 👋🏼</p>
                 </div>
                 <div class="footer-contact__form-container">
-                    <form class="footer-contact__form" action="mailto:scordia.santiago@gmail.com" enctype="text/plain">
+                    <form id="form" class="form" action="https://formspree.io/f/xqknlqjg" method="POST">
                         <div class="footer-contact__form-atributes-group">
-                            <input class="form-input" type="text" name="name" placeholder="Nombre" />
-                            <input class="form-input"  type="email" name="email" placeholder="Email" />
+                            <input id="name" required type="text" class="form-input" name="name" placeholder="Nombre" />
+                            <input id="email" name="email" class="form-input" required type="email" type="text"  placeholder="Email" />
                         </div>
-                        <textarea class="form-input" name="message" placeholder="Mensaje"></textarea>
-                        <input type="submit" class="button-primary" value="Enviar" />
+                        <textarea id="massage" cols="30" class="form-input" name="message" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="button-primary">Enviar</button>
                     </form>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
