@@ -254,6 +254,12 @@ body {
     color: white;
 }
 
+.section-services__card--react {
+    box-shadow: 0px 5px 20px 0px #60b8ff;
+    background-color: #60b8ff;
+    color: white;
+}
+
 .section-services__picture {
     height: 80px;
 }
