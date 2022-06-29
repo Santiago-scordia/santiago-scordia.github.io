@@ -307,7 +307,7 @@ body {
 
 .section-about-me_progress--css .section-about-me_progress__bar--css {
     height: 100%;
-    width: 85%;
+    width: 75%;
     border-radius: 15px;
     background: repeating-linear-gradient(
     #ffd15c,
@@ -318,7 +318,7 @@ body {
 
   @keyframes fill-bar-css {
     from {width: 0%;}
-    to {width: 85%;}
+    to {width: 75%;}
   }
   
   
@@ -356,6 +356,22 @@ body {
   @keyframes fill-bar-c {
     from {width: 0%;}
     to {width: 40%;}
+  }
+
+.section-about-me_progress--react .section-about-me_progress__bar--react {
+    height: 100%;
+    width: 85%;
+    border-radius: 15px;
+    background: repeating-linear-gradient(
+    #60b8ff,
+    #60b8ff 20px
+    );
+    animation: fill-bar-react 8s;
+  }
+
+  @keyframes fill-bar-react {
+    from {width: 0%;}
+    to {width: 85%;}
   }
 
 .section-about-me__card-info {
@@ -433,6 +449,10 @@ body {
 .section-my-work__title {
     font-size: 32px;
     font-weight: bold;
+}
+
+.section-my-work__title2 {
+    margin-left: 30px;
 }
 
 /* BOTONES */
